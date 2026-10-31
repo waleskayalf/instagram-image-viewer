@@ -9,7 +9,6 @@ A small Chrome extension that adds an **"Open image in new tab"** button to Inst
 - Works with carousel posts: the slide you are currently looking at is the one that opens.
 - Falls back to a small round button in the image corner if Instagram changes the action bar layout.
 - Matches Instagram's icon style and supports keyboard use (Tab, then Enter or Space).
-- English and Hungarian tooltip text.
 - No special permissions, no data collection, no network requests of its own.
 
 ## Installation (unpacked)
@@ -45,7 +44,7 @@ After changing any file, click the refresh icon on the extension's card and relo
 
 There is no build step. The extension is plain JavaScript (Manifest V3).
 
-`example_dom.xml` is an anonymized snippet of Instagram's post markup, kept as a reference fixture for the selectors and the `srcset` format. `PLAN.md` holds the original design notes.
+`example_dom.xml` is an anonymized snippet of Instagram's post markup, kept as a reference fixture for the selectors and the `srcset` format.
 
 ## Disclaimer
 
