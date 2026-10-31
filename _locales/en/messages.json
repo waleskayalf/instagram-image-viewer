@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "Instagram Image Viewer" },
+  "extDescription": { "message": "Adds a button to Instagram posts that opens the full-size image in a new tab." },
+  "openImage": { "message": "Open image in new tab" }
+}

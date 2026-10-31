@@ -1,0 +1,40 @@
+.iiv-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.iiv-button:hover {
+  opacity: 0.6;
+}
+
+.iiv-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.iiv-button svg {
+  display: block;
+}
+
+/* Fallback placement: floating over the image when no action bar is found. */
+.iiv-floating {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 50%;
+}
+
+.iiv-floating-host {
+  position: relative;
+}
